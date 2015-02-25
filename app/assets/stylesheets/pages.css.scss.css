@@ -1,2 +1,32 @@
+$navbar-default-bg:#fff;
+$navbar-default-color:#8EC1DA;
+$navbar-default-link-hover-color:#8EC1DA;
+$navbar-default-link-color:#8EC1DA;
+$jumbotron-bg:#fff;
+$jumbotron-font-size:32px;
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+body { 
+background:#8EC1DA;
+}
+
+.logo {
+	padding-top:8px;
+}
+
+#title {
+	font-size: 14px;
+}
+
+.jumbotron {
+	box-shadow:2px 2px #ebebeb;
+	padding-left: 20px;
+}
+
+.jumbotron button {
+	background:#8EC1DA;
+}

@@ -8,7 +8,16 @@
 </head>
 <body>
 
+<%= render 'layouts/header' %>
+
+<div class="col-md-12">
+	<div class="col-md-8">
 <%= yield %>
+	</div>
+<div class="col-md-4">
+	<%= render "layouts/sidebar" %>
+</div>
+</div>
 
 </body>
 </html>
