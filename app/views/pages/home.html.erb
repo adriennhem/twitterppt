@@ -33,7 +33,7 @@
 	</div> <!-- end of panel -->
 </div> <!-- end of first slide -->
 
-<div class="row" id="#first-slide">
+<div class="row" id="#second-slide">
 	<div class="panel panel-default">
 	  <div class="panel-heading">
 	    <h3 class="panel-title">Introduction</h3>
@@ -54,19 +54,17 @@
     	</div>
 
     <div class="col-md-10 col-md-offset-2"> 
-    		<%= image_tag("1.png", height: "300", width: "300", class: "image-tweet") %>	
-<%= link_to "Bigger", "#hello", class: "fancybox" %>
-
-<div style="display:none;">
-    	<a href="" id="hello">
-    	<%= image_tag("1.png", height: "700", width: "700", class: "image-tweet") %>	
-    	</a>
-    </div>
-    
+    		<%= image_tag("1.png", height: "300", width: "300", class: "image-tweet") %> <br><br>	
+				<%= link_to "Bigger", "#hello", class: "fancybox" %>
+					<div style="display:none;">
+		    	<a href="" id="hello">
+		    	<%= image_tag("1.png", height: "700", width: "700", class: "image-tweet") %>	
+		    	</a>
+			    </div>    
     </div>
 
 		<div class="col-md-12">
-	    <p>Posted 24/02/2015 at 15:30</p>
+	    <h5>Tweeted at 24/02/2015 at 15:30</h5>
     </div>
 
 	    </div> <!-- end of row -->
@@ -102,7 +100,7 @@
 	</div> <!-- end of panel -->
 </div> <!-- end of first slide -->
 
-
+<!-- START DISQUS -->
 
 <div class="disqus col-md-12">
     <div id="disqus_thread"></div>
@@ -122,7 +120,7 @@
 
     </div>
 
-
+<!-- SCRIPT FANCYBOX -->
 
 <script>
 $(document).ready(function() {

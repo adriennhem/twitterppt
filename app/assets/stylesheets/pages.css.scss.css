@@ -61,10 +61,30 @@ span.tweet-username {
 	left:85%;
 }
 
+/* FOOTER */
+
 .footer {
 	background: #fff;
-	margin-top: 30px;
+	margin-top: 100px;
+	height: 700px;
+	box-shadow: 2px 2px lightGrey;
+	color: #8EC1DA;
 }
+
+.footer h1 {
+	font-size: 72px;
+	text-align: center;
+	margin: 250px 250px;
+	padding-top:150px;
+}
+
+.footer h2 {
+	text-align: center;
+	font-size: 72px;
+
+}
+
+/* DISQUS */
 
 .disqus {
 	background:#fff;
