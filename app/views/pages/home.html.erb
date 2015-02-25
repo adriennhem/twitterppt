@@ -1,5 +1,5 @@
 <div class="jumbotron">
-  <h1>Twitter</h1>
+  <h1>UnderTwitting</h1>
   <p>presented by Eleonora, Jules, Gowshik, João and Adrien</p>
   <p><a class="btn btn-primary btn-lg" href="#" role="button">Follow Us</a></p>
 </div>
@@ -53,7 +53,20 @@
 			</div>
     	</div>
 
-    <div class="col-md-12"> 	
+    <div class="col-md-10 col-md-offset-2"> 
+    		<%= image_tag("1.png", height: "300", width: "300", class: "image-tweet") %>	
+<%= link_to "Bigger", "#hello", class: "fancybox" %>
+
+<div style="display:none;">
+    	<a href="" id="hello">
+    	<%= image_tag("1.png", height: "700", width: "700", class: "image-tweet") %>	
+    	</a>
+    </div>
+    
+    </div>
+
+		<div class="col-md-12">
+	    <p>Posted 24/02/2015 at 15:30</p>
     </div>
 
 	    </div> <!-- end of row -->
@@ -90,3 +103,29 @@
 </div> <!-- end of first slide -->
 
 
+
+<div class="disqus col-md-12">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'twitterpresentation'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </div>
+
+    </div>
+
+
+
+<script>
+$(document).ready(function() {
+  $("a.fancybox").fancybox();
+});
+</script>

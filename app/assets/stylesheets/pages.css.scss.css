@@ -60,3 +60,13 @@ span.tweet-username {
 	top:10%;
 	left:85%;
 }
+
+.footer {
+	background: #fff;
+	margin-top: 30px;
+}
+
+.disqus {
+	background:#fff;
+	padding: 10px 10px;
+}
