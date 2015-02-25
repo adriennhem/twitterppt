@@ -30,3 +30,33 @@ background:#8EC1DA;
 .jumbotron button {
 	background:#8EC1DA;
 }
+
+.tweet-header {
+
+}
+
+span.tweet-title {
+	font-size: 32px;
+	font-weight: 700;
+
+}
+
+span.tweet-username {
+	color:grey;
+	font-size: 20px;
+}
+
+.panel-title {
+	font-size: 36px;
+}
+
+.tweet {
+	margin-left: 10px;
+}
+
+.tweet-feed {
+	position:fixed;
+	width:80px;
+	top:10%;
+	left:85%;
+}
